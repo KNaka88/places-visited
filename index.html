@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Places You've Been</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Places You've Been</h1>
+      <form class="form" id="places-visited" class="form-control">
+        <div class="row">
+          <div class="col-md-12">
+            <label for="placename">Place You've Been:</label>
+            <input type="text" class="form-control" id="placename">
+          </div>
+
+          <div class="col-md-12">
+            <label for="landmark">Landmark:</label>
+            <input type="text" class="form-control" id="landmark">
+          </div>
+
+          <div class="col-md-12">
+            <label for="timeofyear">Time Of Year:</label>
+            <input type="text" class="form-control" id="timeofyear">
+          </div>
+
+          <div class="col-md-12">
+            <label for="notes">Notes:</label>
+            <textarea type="text" class="form-control" rows="4" id="notes"></textarea>
+          </div>
+
+            <button type="submit" class="btn">Submit!</button>
+        </div>
+      </form>
+
+      <div id="show-result">
+        <h3 id="places">Places You've been</h3>
+        <ul class="places">
+        </ul> <!-- result here -->
+      </div>
+
+    </div>
+
+  </body>
+</html>
