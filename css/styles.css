@@ -1,3 +1,16 @@
 #show-result {
   display: none;
 }
+
+.placelist {
+  cursor: pointer;
+  color: darkblue;
+}
+
+.placelist:hover {
+  text-decoration: underline;
+}
+
+#results-detail {
+  display: none;
+}
